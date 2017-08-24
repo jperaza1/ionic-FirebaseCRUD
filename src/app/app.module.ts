@@ -13,9 +13,11 @@ import { MyApp } from './app.component';
 //Paginas
 import { ShoppingListPage } from '../pages/shopping-list/shopping-list';
 import { AddShoppingPage } from '../pages/add-shopping/add-shopping';
+import { EditShoppingItemPage } from '../pages/edit-shopping-item/edit-shopping-item';
 
 //Credenciales de Firebase
 import { FIREBASE_CREDENTIALS } from './firebase.credentials';
+
 
 
 
@@ -24,7 +26,8 @@ import { FIREBASE_CREDENTIALS } from './firebase.credentials';
   declarations: [
     MyApp,
     ShoppingListPage,
-    AddShoppingPage
+    AddShoppingPage,
+    EditShoppingItemPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import { FIREBASE_CREDENTIALS } from './firebase.credentials';
   entryComponents: [
     MyApp,
     ShoppingListPage,
-    AddShoppingPage
+    AddShoppingPage,
+    EditShoppingItemPage
   ],
   providers: [
     StatusBar,
